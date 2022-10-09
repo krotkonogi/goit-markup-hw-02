@@ -12,10 +12,16 @@ body{
     --text-color-main: #212121;
     --text-color-alt: #757575;
     --highlight-color: #2196F3;
-
 }
+
 .active-object:hover,
 .active-object:focus{
+    background-color: var(--highlight-color);
+    color: var(--top-bg-color)
+}
+
+.link:hover,
+.link:focus {
     color: var(--highlight-color);
 }
 
@@ -37,7 +43,10 @@ body{
 
 .logo-2{
     color: #000000;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
 }
 
 
