@@ -36,19 +36,32 @@ body{
 .logo-1{
     color: var(--highlight-color);
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.17;
 }
 
 .logo-2{
     color: #000000;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.17;
 }
 
+.header{
+    color: var(--top-bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.list-nav-title{
+    color: var(--text-color-main);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
 
 
 
