@@ -14,12 +14,6 @@ body{
     --highlight-color: #2196F3;
 }
 
-.active-object:hover,
-.active-object:focus{
-    background-color: var(--highlight-color);
-    color: var(--top-bg-color)
-}
-
 .link:hover,
 .link:focus {
     color: var(--highlight-color);
@@ -51,18 +45,110 @@ body{
 
 .header{
     color: var(--top-bg-color);
+    background-color: var(--footer-bg-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 }
 
-.list-nav-title{
+.employee-tag{
     color: var(--text-color-main);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
 }
 
+.employee-description{
+    color: var(--text-color-alt);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+}
 
+.contact-top{
+    color: var(--text-color-alt);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.contact-bottom{
+    color: var(--top-bg-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    opacity: 60%;
+}
+
+.addres{
+    color: var(--top-bg-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.navigation{
+    color: var(--text-color-main);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title{
+    color: var(--text-color-main);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.article+ h4{
+    color: var(--text-color-main);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.article+ p{
+    color: var(--text-color-alt);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.caption + h4{
+    color: var(--text-color-main);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.caption + p{
+    color: var(--text-color-main);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.big-button{
+    color: var(--top-bg-color);
+    background-color: var(--highlight-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.small-button{
+    color: var(--text-color-main);
+    background-color: var(--box-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.small-button:hover,
+.small-button:focus {
+    background-color: var(--highlight-color);
+    color: var(--top-bg-color)
+}
 
 
