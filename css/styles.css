@@ -14,6 +14,8 @@ body{
     --highlight-color: #2196F3;
 }
 
+.top-nav{background-color: var(--top-bg-color);}
+
 .link:hover,
 .link:focus {
     color: var(--highlight-color);
