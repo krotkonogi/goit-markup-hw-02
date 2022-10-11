@@ -111,13 +111,13 @@ body{
     line-height: 1.17;
 }
 
-.article+ h3{
+.article + h3{
     font-style: bold;
     font-size: 14px;
     line-height: 1.17;
 }
 
-.article+ p{
+.article + p{
     font-style: normal;
     color: var(--text-color-alt);
     font-size: 14px;
