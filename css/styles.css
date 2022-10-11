@@ -31,6 +31,7 @@ body{
 .logo-1{
     color: var(--highlight-color);
     font-family: 'Raleway', sans-serif;
+    font-style: bold;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
@@ -39,20 +40,24 @@ body{
 .logo-2{
     color: #000000;
     font-family: 'Raleway', sans-serif;
+    font-style: bold;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
 }
 
+.main-title{background-color: var(--footer-bg-color);}
+
 .header{
     color: var(--top-bg-color);
-    background-color: var(--footer-bg-color);
+    font-style: bold;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 }
 
 .employee-tag{
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
@@ -60,6 +65,7 @@ body{
 
 .employee-description{
     color: var(--text-color-alt);
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
@@ -67,6 +73,7 @@ body{
 
 .contact-top{
     color: var(--text-color-alt);
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
@@ -74,6 +81,7 @@ body{
 
 .contact-bottom{
     color: var(--top-bg-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -82,50 +90,56 @@ body{
 
 .addres{
     color: var(--top-bg-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .navigation{
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .section-title{
-    font-weight: 700;
+    font-style: bold;
     font-size: 36px;
     line-height: 1.17;
 }
 
-.article+ h4{
-    font-weight: 700;
+.article+ h3{
+    font-style: bold;
     font-size: 14px;
     line-height: 1.17;
 }
 
 .article+ p{
+    font-style: normal;
     color: var(--text-color-alt);
     font-size: 14px;
     line-height: 1.71;
 }
 
-.caption + h4{
-    font-weight: 700;
-    font-size: 36px;
+.caption + h3{
+    font-style: normal;
+    font-size: 18px;
     line-height: 1.17;
 }
 
 .caption + p{
+    font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 16px;
     line-height: 1.17;
 }
 
 .big-button{
     color: var(--top-bg-color);
     background-color: var(--highlight-color);
+    font-family: inherit;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -134,6 +148,8 @@ body{
 
 .small-button{
     background-color: var(--box-bg-color);
+    font-family: inherit;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -146,4 +162,6 @@ body{
     color: var(--top-bg-color)
 }
 
+.footer{background-color: var(--footer-bg-color);}
 
+.section-employee{background-color: var(--box-bg-color);}
