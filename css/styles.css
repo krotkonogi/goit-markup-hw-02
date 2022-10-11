@@ -30,8 +30,7 @@ body{
     list-style-type: none;
 }
 
-.logo-1{
-    color: var(--highlight-color);
+.logo{
     font-family: 'Raleway', sans-serif;
     font-style: bold;
     font-weight: 700;
@@ -39,13 +38,13 @@ body{
     line-height: 1.17;
 }
 
+.logo-1{
+    color: var(--highlight-color);
+
+}
+
 .logo-2{
     color: #000000;
-    font-family: 'Raleway', sans-serif;
-    font-style: bold;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
 }
 
 .section-bg{background-color: var(--footer-bg-color);}
@@ -132,7 +131,6 @@ body{
 
 .caption-content{
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.17;
 }
