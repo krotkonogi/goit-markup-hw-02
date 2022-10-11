@@ -48,7 +48,7 @@ body{
     line-height: 1.17;
 }
 
-.main-title{background-color: var(--footer-bg-color);}
+.section-lorem{background-color: var(--footer-bg-color);}
 
 .header{
     color: var(--top-bg-color);
