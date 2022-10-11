@@ -48,7 +48,7 @@ body{
     line-height: 1.17;
 }
 
-.section-lorem{background-color: var(--footer-bg-color);}
+.section-bg{background-color: var(--footer-bg-color);}
 
 .header{
     color: var(--top-bg-color);
@@ -111,26 +111,26 @@ body{
     line-height: 1.17;
 }
 
-.article + h3{
+.article-title{
     font-style: bold;
     font-size: 14px;
     line-height: 1.17;
 }
 
-.article + p{
+.article-content{
     font-style: normal;
     color: var(--text-color-alt);
     font-size: 14px;
     line-height: 1.71;
 }
 
-.caption + h3{
+.caption-title{
     font-style: normal;
     font-size: 18px;
     line-height: 1.17;
 }
 
-.caption + p{
+.caption-content{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -141,7 +141,7 @@ body{
     color: var(--top-bg-color);
     background-color: var(--highlight-color);
     font-family: inherit;
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
